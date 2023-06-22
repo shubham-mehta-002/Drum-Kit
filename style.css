@@ -1,0 +1,119 @@
+/* body{
+    background-image: url('images/pexels-vishnu-r-nair-1105666 (1).jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+
+  
+    overflow: hidden; /* Hide scrollbars */
+      
+/* } */
+
+/* .box{
+    height:8vh;
+    width:8vh;
+    border:Black solid 5px;
+    margin:1rem;
+    display: inline-block;
+    padding:0.5rem;
+    cursor: pointer;
+} */
+
+/* .box-container{
+    margin:40vh 15vh;
+    
+}
+
+.text{
+    text-align:center;
+    font-size:xx-large;
+    font-weight:bolder;
+    color:white;
+    padding-left: auto;
+    padding-top: 0.5rem;
+}
+.box-type{
+    margin: 0vh 1vh;
+    text-align:center;
+    color:yellow;
+    font-size: small;  
+        
+} */ 
+
+
+body{
+    background-image: url("images/pexels-vishnu-r-nair-1105666 (1).jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+    overflow: hidden;
+}
+.container{
+    /* border: 2px white solid ; */
+    height:20vh;
+    max-height: 20vh;
+    width:90vw;
+    max-width:90vw;
+    margin: auto;
+    position:relative;
+    top:40%;
+    bottom:50%;
+    user-select: none;
+   
+    
+}
+.main{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border:2px white solid;
+    margin:11px;
+    border-radius: 1rem;
+    box-shadow: 4px 4px gray;
+    cursor: pointer;
+    position: relative;
+    transition: 0.05s;
+    
+    
+}
+.boxes{
+    margin:auto;
+    width: 90%;
+    height:80%;
+    position:relative;
+    top:20px;
+}
+.key{
+    color:white;
+    text-align: center;
+    /* margin:10px; */
+    font-weight: 600;
+    font-size: 50px;
+    cursor: pointer;
+}
+.audio-type{
+    color:white;
+    text-align: center;
+    position:relative;
+    /* bottom:8px; */
+    cursor: pointer;
+    height:20px;
+    
+}
+
+.new-style{
+    border-color:blue;
+    transform: scale(1.1);
+    box-shadow: 5px 5px orange;
+    
+
+}
+.blank{
+    position:absolute;
+    /* background-color: red; */
+    height: 100%;
+    width:100%;
+    top:0;
+}
