@@ -3,7 +3,7 @@ body{
 /*     background-position: center; */
 /*     background-size: 100%; */
     background-repeat: no-repeat;
-/*     background-size:cover; */
+    background-size:cover;
     overflow: hidden;
     height:100vh;
 }
