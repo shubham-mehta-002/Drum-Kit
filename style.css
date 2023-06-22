@@ -1,11 +1,11 @@
 body{
     background-image: url("images/pexels-vishnu-r-nair-1105666 (1).jpg");
 /*     background-position: center; */
-    background-size: 100%;
+/*     background-size: 100%; */
     background-repeat: no-repeat;
-    background-size:cover;
+/*     background-size:cover; */
     overflow: hidden;
-/*     height:100vh; */
+    height:100vh;
 }
 .container{
     height:20vh;
